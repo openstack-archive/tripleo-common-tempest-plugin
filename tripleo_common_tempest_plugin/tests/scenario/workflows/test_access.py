@@ -15,9 +15,6 @@
 from tempest.lib import decorators
 from tempest import test
 
-from tripleo_common_tempest_plugin.tests import base
-
-
 
 class AccessWorkflowTestCase(test.BaseTestCase):
 
