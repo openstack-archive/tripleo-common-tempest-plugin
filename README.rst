@@ -2,8 +2,8 @@
 Team and repository tags
 ========================
 
-.. image:: http://governance.openstack.org/badges/tripleo-common.svg
-    :target: http://governance.openstack.org/reference/tags/index.html
+.. image:: https://governance.openstack.org/tc/badges/tripleo-common.svg
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
 
 .. Change things from this point on
 
@@ -15,8 +15,8 @@ A common library for TripleO workflows.
 
 * Free software: Apache license
 * Documentation: https://docs.openstack.org/tripleo-common/latest/
-* Source: http://git.openstack.org/cgit/openstack/tripleo-common
-* Bugs: http://bugs.launchpad.net/tripleo-common
+* Source: https://opendev.org/openstack/tripleo-common
+* Bugs: https://bugs.launchpad.net/tripleo-common
 
 Action Development
 ------------------
@@ -47,7 +47,7 @@ Prerequisites
 If you haven't installed the undercloud with the ``enable_validations`` set to
 true, you will have to prepare your undercloud to run the validations::
 
-    $ sudo pip install git+https://git.openstack.org/openstack/tripleo-validations
+    $ sudo pip install git+https://opendev.org/openstack/tripleo-validations
     $ sudo yum install ansible
     $ sudo useradd validations
 
